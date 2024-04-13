@@ -1,20 +1,26 @@
 body {
-    background-color: black;
+    background-image: url(./imgs/abstrato-3d-fundo-preto-fundo-cinza-com-texturas-3d-imagem-de-fundo-escuro_873925-84276.jpg);
+    background-size: cover;
     color: white;
+}
+
+.flexme {
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     text-align: center;
 }
 
-main {
+main, footer {
     width: 900px;
     margin: auto;
 }
 
-article {
-    background-color: rgb(29, 32, 32);
-}
+/* article {
+    background-color: rgb(0, 0, 0);
+} */
 
 iframe {
     width: 400px;
@@ -27,6 +33,39 @@ iframe {
 
 img {
     width: 30px;
+}
+
+#img-principal-container {
+    width: 400px;
+    /* height: 33%; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#img-principal-container:after {
+    background: linear-gradient(to bottom, transparent 80%, rgba(0, 0, 0, 0.75)100%);
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+#img-principal {
+    width: 100%;
+}
+
+main aside {
+    margin-left: 150px;
+}
+
+#imagem-instrumentos {
+    width: 70%;
 }
 
 ul {
