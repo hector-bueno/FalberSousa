@@ -1,0 +1,38 @@
+@media(max-width: 950px) {
+
+    main {
+        max-width: 80%;
+        display: block;
+    }
+    
+    main * {
+        display: block;
+        margin: auto;
+    }
+
+    .flexme {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #txt-historia {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    #img-principal-container {
+        max-width: 100%;
+        position: relative;
+        /* top: 100%; */
+        left: 25%;
+        margin: auto;
+        background-image: url('./imgs/instumentos.png');
+        background-size: auto;
+    }
+    
+    #imagem-instrumentos {
+        display: none;
+    }
+
+
+}
