@@ -1,0 +1,39 @@
+@media(max-width: 950px) {
+    /* geral */
+    body {
+        background-color: blueviolet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(./imgs/falber_solo_transparent.png);
+        background-size: cover;
+        background-position-y: 120px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+    body * {
+        max-width: 90%;
+        margin: 5px auto;
+
+    }
+
+    h1 {
+        font-size: 2.3em;
+        text-align: center;
+        background-color: yellow;
+    }
+    
+    #txt-historia {
+        font-size: 1.2em;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+        text-align: justify;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+}
